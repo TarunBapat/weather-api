@@ -1,0 +1,22 @@
+body{
+	background: dodgerblue;
+}
+.container{
+	margin: 0 auto;
+	max-width:840px; 
+}
+.container .clouds{
+	text-align: center;
+}
+
+.container .clouds img{
+	width: 300px;
+	height: 300px;
+
+}
+.container p{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+
+}
