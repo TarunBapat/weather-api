@@ -16,7 +16,7 @@ window.addEventListener('load',()=>{
             long=position.coords.longitude;
 
             
-            fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=7e87816d939310608a58b6cdf39451cd`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&appid=7e87816d939310608a58b6cdf39451cd`)
             .then((response)=>{
                 return response.json();
             })
